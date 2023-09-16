@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding :0;
+    /* box-sizing: border-box; */
+    
+}
+body{
+    background-color:rgb(205, 224, 210);
+}
+.navbar{
+    background-color: white;
+
+    
+}
+.nav-list {
+    display : flex;
+    list-style: none;
+    padding: 30px;
+    justify-content: flex-end;
+    box-shadow :5px 5px 5px grey;
+}
+.list-items a{
+    text-decoration: none;
+    padding: 20px;
+    font-size:x-large;
+    /* margin :30px; */
+
+    
+}
+.list-items a:hover{
+    color: gray;
+}
+.im{
+    height :300px;
+    width:300px;
+    border-radius: 150px ;
+}
+
+.aayush{
+    display:flex;
+}
+.first{
+    display:flex;
+    font-size:x-large;
+    height : 100px;
+    padding : 50px;
+}
+.fourth{
+    display:flex;
+    justify-content: center;
+}
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.second-half{
+    display :flex;
+}
+.insta{
+    height:300px;
+    padding: 300px;
+    
+}
+.instatext{
+    font-size:xx-large ;
+    font-family: cursive;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.welcome{
+    height : 100px;
+    width:100px;
+    font-size:2.5cm;
+    color:blue ;
+    top: 30%;
+    right :50%;
+    padding :100px;
+    padding-left:200px;
+}
+.button a{
+    color:white;
+}
+
